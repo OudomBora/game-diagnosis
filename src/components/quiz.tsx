@@ -112,12 +112,12 @@ export function Quiz() {
 				</CardTitle>
 			</CardHeader>
 			<CardContent className='space-y-4'>
-				{/* <Progress
+				<Progress
 					value={
 						(state.currentQuestionIndex / questions.length) * 100
 					}
 					className='w-full'
-				/> */}
+				/>
 				{currentQuestion.imageUrl && (
 					<div className='relative w-full aspect-video'>
 						<Image
